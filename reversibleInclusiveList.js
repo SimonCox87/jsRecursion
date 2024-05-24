@@ -47,5 +47,4 @@ console.log(reversibleInclusiveList(2, 8)) // ➞ [2, 3, 4, 5, 6, 7, 8]
 console.log(reversibleInclusiveList(10, 20)) // ➞[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 console.log(reversibleInclusiveList(24, 17)) // ➞[24, 23, 22, 21, 20, 19, 18, 17]
 
-console.log(24 + -1)
 
