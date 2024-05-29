@@ -77,6 +77,16 @@ function extremes(arr, i = 0, smallest = [0,Infinity], largest = [0,-Infinity]) 
 
 // }
 
+// More concise solution
+
+// function extremes(arr, p = 0, l = 0, u = 0) {
+// 	if (p >= arr.length)
+// 		return l === u ? "No bounds!" : [{[l]: arr[l]}, {[u]: arr[u]}];
+// 	if (arr[p] < arr[l]) l = p;
+// 	if (arr[p] > arr[u]) u = p;
+// 	return extremes(arr, p + 1, l, u);
+// }
+
 
 
 
