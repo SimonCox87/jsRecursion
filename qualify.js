@@ -25,36 +25,6 @@
 //     In cases where two longest words are found, return the first.
 //     The use of reduce(), reduceRight(), map(), filter(), indexOf() and max() functions are restricted.
 
-// function palindromes(s, l=0, r=s.length-1) {
-
-//     return l<r ? s[l] != s[r] ? false : palindromes(s, ++l, --r) : true;
-//     // if (l<r) {
-//     //     if (s[l] != s[r]) {
-//     //         return false;
-//     //     }
-//     //     else {
-//     //         return palindromes(s, ++l, --r);
-//     //     }
-//     // }
-
-//     // return true;
-// }
-
-// console.log(palindromes("intelligence"))
-
-// function longest(arr, i = 0, word="") {
-
-//     if (i == arr.length) {
-//         return {"longest" : word, "length" : word.length};
-//     }
-//     if (arr[i].length > word.length) {
-//         word = arr[i];
-//     }
-//     return longest(arr, ++i, word);
-// }
-
-// console.log(longest(["wow", "relevance", "radar", "soundly", "intelligence", "racecar", "gradually"]))
-
 function qualify(arr,i=0, word="",pals=[]) {
 	function palindromes(s, l=0, r=s.length-1) {
 		return l<r ? s[l] != s[r] ? false : palindromes(s, ++l, --r) : true;
