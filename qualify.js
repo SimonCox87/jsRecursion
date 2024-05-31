@@ -77,9 +77,7 @@ function qualify(arr,i=0, word="",pals=[]) {
 
 console.log(qualify(["wow", "radar", "soundly", "intelligence", "racecar", "gradually"])) // ➞ 
 // // {"longest": "intelligence", "length": 12, "palindromes": ["racecar", "radar", "wow"]}
-
 console.log(qualify(["persistence", "anna", "civic", "perseverance", "kayak", "irrefutability"])) // ➞ 
 // // {"longest": "irrefutability", "length": 14, "palindromes": ["anna", "civic", "kayak"]}
-
 console.log(qualify(["level", "resistance", "madam", "arrogance", "unconsiderably", "mom", "noon"])) // ➞ 
 // // {"longest": "unconsiderably", "length": 14, "palindromes": ["level", "madam", "mom", "noon"]}
